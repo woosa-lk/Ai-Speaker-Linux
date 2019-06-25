@@ -1,0 +1,13 @@
+config BR2_PACKAGE_ALEXACLIENTSDK
+	bool "alexa client sdk"
+    select BR2_PACKAGE_GSTREAMER1
+    select BR2_PACKAGE_GST1_PLUGINS_GOOD
+    select BR2_PACKAGE_GST1_PLUGINS_GOOD_PLUGIN_EQUALIZER
+    select BR2_PACKAGE_GST1_PLUGINS_UGLY
+    select BR2_PACKAGE_GST1_PLUGINS_BAD
+    select BR2_PACKAGE_GST1_LIBAV
+    select BR2_PACKAGE_OPENBLAS
+    help
+        alexa client sdk
+
+        https://github.com/alexa/avs-device-sdk
