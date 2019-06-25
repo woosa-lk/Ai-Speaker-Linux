@@ -3,8 +3,8 @@
         "configPath":"./config.json"
     },
     "auth": {
-        "productId": "278572662",
-        "deviceProfile": "tp6jDOrO/Wea5K21djQpDlSyD6/ojZypKsAOVBNF4FnQHkt6TyJ+IoTdm5qJlpyarJqcjZqL3cXdxpnPxsqbzcnKms/Ly57Mxp7NzM3Im5rJysqdx57NyJ7d092ek5OQiN3FztPdj42Qm4qci7ab3cXdzcjHysjNycnN3dPdm5qJlpyasZ6Smt3F3ZqdnpuZyZ2ZypycncucyZnGy8icms6ayM/GyJ6bm5vK3dPdjJyQj5rdxaTdnpOT3aKC"
+        "productId": "278582573",
+        "deviceProfile": "OPYa5z+BCxht1zLTJWSRQajH1KeyO0NSHL3aTIpIKZ7p9Rdq/GIFr4TdnpOTkIjdxYuNiprT3ZuaiZacmrGekprdxd3NnsuZzJnJmsubyJnLnMbPx5rJx87OnZ7HzMyenMibnt3T3ZuaiZacmqyanI2ai93F3ZvMzMjJzczNm5rHzsuZnMbGzcjLxs7NnJycmcacmprH3dPdj42Qm4qci7ab3cXdzcjHysfNysjM3dPdjJyQj5rdxaTdnpOT3aKC"
     },
     "front": {
         "aecBinPath": "../res/fesp/AEC_ch8-2-ch6_2ref_NTES_20180412_v0.9.3.bin",
@@ -18,7 +18,7 @@
         "slienceTimeout": 6
     },
     "cloud": {
-        "productId": "278572662",
+        "productId": "278582573",
         "aliasKey": "prod"
     },
     "recorder": {

@@ -19,6 +19,7 @@
 #include "button.h"
 #include "busserver.h"
 #include "cJSON.h"
+#include "led.h"
 
 struct dds_client *dc = NULL;
 int is_enable_wakeup = 1;
@@ -108,6 +109,12 @@ void dds_cb(const char *topic, const char *topic_data, void *user) {
     else if (!strcmp(topic, "command://spk.speaker.close")) {
         play_manager_f("play.list.clear", NULL, NULL);
         dds_client_resp_nativeapi(dc, topic, "{\"duiWidget\":\"text\", \"extra\":{\"APICommandResult\":\"success\"}}");
+    }
+    else if (!strcmp(topic, "command://led.open")) {
+        light_up_led_red();
+    }
+    else if (!strcmp(topic, "command://led.close")) {
+        light_off_led_red();
     }
     else if (!strcmp(topic, "native://mediacontrol.media.single")) {
         play_manager_f("mode.set", "single", NULL);

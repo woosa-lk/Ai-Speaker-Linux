@@ -25,7 +25,7 @@ LOCAL_LDFLAGS += -lasound
 
 LOCAL_CXXFLAGS 	:= LOCAL_CFLAGS -rdynamic 
 
-CC = ../../../../../../buildroot/output/rockchip_rk3308_release/host/usr/bin/aarch64-linux-gcc
+CC = ../../../../../../buildroot/output/firefly_rk3308_release/host/usr/bin/aarch64-linux-gcc
 
 CFLAGS += $(LOCAL_CFLAGS)
 
